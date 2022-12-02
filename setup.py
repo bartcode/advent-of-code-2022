@@ -31,7 +31,7 @@ setup(
     },
     classifiers=[
         "Development Status :: 1 - Planning",
-        "Programming Language :: Python :: 3.0",
+        "Programming Language :: Python :: 3.10",
         "Topic :: Utilities",
     ],
 )
