@@ -24,7 +24,7 @@ def main(path: Path) -> None:
     """Solve day 1."""
     elves = sorted(
         [
-            Elf(calories=calories.split("\n"))
+            Elf(calories=calories.splitlines())
             for calories in path.read_text(encoding="utf-8").split("\n\n")
         ],
         key=lambda x: x.total if x else 0,

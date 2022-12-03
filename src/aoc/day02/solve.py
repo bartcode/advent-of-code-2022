@@ -130,14 +130,14 @@ def main(path: Path) -> None:
     hand_decryption = Match(
         rounds=[
             _to_round(p, DecryptionMode.HANDS)
-            for p in path.read_text(encoding="utf-8").split("\n")
+            for p in path.read_text(encoding="utf-8").splitlines()
             if p
         ]
     )
     outcome_decryption = Match(
         rounds=[
             _to_round(p, DecryptionMode.OUTCOME)
-            for p in path.read_text(encoding="utf-8").split("\n")
+            for p in path.read_text(encoding="utf-8").splitlines()
             if p
         ]
     )
