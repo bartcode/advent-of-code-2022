@@ -20,5 +20,4 @@ Options:
 Commands:
   day01  Solve day 1.
   ...    Solve day n.
-
 ```
