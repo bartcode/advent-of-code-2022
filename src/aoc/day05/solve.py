@@ -17,6 +17,7 @@ class Stack(BaseModel):
 
 class Instructions(BaseModel):
     """A set of instructions for a move."""
+
     items: int
     start: int
     towards: int
