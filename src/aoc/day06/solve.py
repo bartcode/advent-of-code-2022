@@ -25,7 +25,7 @@ def find_marker(message: Iterator[str], minimum_signals: int) -> int:
 @click.command(name="day06")
 @click.option("--path", type=click_pathlib.Path(exists=True))
 def main(path: Path) -> None:
-    """Solve day 5."""
+    """Solve day 6."""
     input_text = iter(path.read_text())
     print(f"[1] First start-of-packet: {find_marker(input_text, 4)}.")
 
