@@ -22,6 +22,7 @@ setup(
         "coloredlogs~=15.0",
         "pydantic~=1.10",
         "click-pathlib==2020.3.13.0",
+        "numpy~=1.23",
     ],
     entry_points={
         "console_scripts": [

@@ -1,4 +1,4 @@
-"""Solution for day 6 of Advent of Code."""
+"""Solution for day 7 of Advent of Code."""
 # pylint: disable=no-name-in-module,no-self-argument,too-few-public-methods
 from __future__ import annotations
 
