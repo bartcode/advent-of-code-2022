@@ -2,15 +2,11 @@
 # pylint: disable=no-name-in-module,no-self-argument,too-few-public-methods
 from __future__ import annotations
 
-import logging
 from pathlib import Path
 
 import click
 import click_pathlib
 import numpy as np
-
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
 
 
 def forrest_trees(trees: np.array, row: int, column: int) -> np.array:
