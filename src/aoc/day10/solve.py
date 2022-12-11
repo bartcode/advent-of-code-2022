@@ -45,8 +45,7 @@ class Program(BaseModel):
         for _ in range(instruction.type.value):
             self.drawing[self.current_cycle // 40] += (
                 "#"
-                if self.current_cycle % 40
-                   in range(self.value - 1, self.value + 2)
+                if self.current_cycle % 40 in range(self.value - 1, self.value + 2)
                 else "."
             )
 
